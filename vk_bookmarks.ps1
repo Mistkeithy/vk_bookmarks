@@ -5,7 +5,6 @@ param (
 	[string]$urlWithToken = 'https://oauth.vk.com/blank.html#access_token=123'
 )
 
-# Проверяем, были ли аргументы переданы скрипту
 if (-not $PSBoundParameters.ContainsKey("startFrom")) {
     $startFrom = Read-Host "Start from"
 }
