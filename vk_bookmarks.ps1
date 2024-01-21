@@ -1,7 +1,7 @@
 param (
     [int]$startFrom = 0,
     [int]$getCount = 100,
-    [string]$savePath = ""
+    [string]$savePath = "",
 	[string]$urlWithToken = 'https://oauth.vk.com/blank.html#access_token=123'
 )
 
